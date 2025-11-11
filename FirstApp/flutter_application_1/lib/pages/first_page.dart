@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/pages/count_page.dart';
 import 'package:flutter_application_1/pages/home_page.dart';
 import 'package:flutter_application_1/pages/profile_page.dart';
 import 'package:flutter_application_1/pages/setting_page.dart';
+import 'package:flutter_application_1/pages/todo_page.dart';
 
 class FirstPage extends StatefulWidget{
   FirstPage({super.key});
@@ -22,7 +24,14 @@ class _FirstPageState extends State<FirstPage> {
 
   final List _pages = [
     //Home page
-    HomePage(),
+    // HomePage(),
+    
+    //CountPage
+    // CountPage(),
+
+    // ToDoPage
+    TodoPage(),
+    
     // Profile
     ProfilePage(),
     //Settting 
